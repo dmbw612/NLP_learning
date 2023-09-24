@@ -1,7 +1,10 @@
 """
 1개의 문장을 (1, max_len, n_dim) 차원으로 embedding 한 것이 아니라,
 1개의 문장을 (1, |S|) 차원으로 변환한 예제.
+
 """
+
+# TODO nltk.download() 해야함
 
 import numpy as np
 from tensorflow.keras.preprocessing.text import Tokenizer
